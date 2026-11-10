@@ -15,7 +15,7 @@ type Attempt = { id: string; score?: number | null; correct?: number | null; wro
 const learningSpaces = [
   { title: 'Live Classroom', description: 'Attend & revise lectures', href: '/modules/classroom', icon: GraduationCap, image: 'https://images.unsplash.com/photo-1524178232363-1fb2b075b655?w=1000&q=85', tone: 'from-violet-700/35 via-fuchsia-950/25' },
   { title: 'Digital Library', description: 'Notes, books, reports & PDFs', href: '/resources', icon: Library, image: 'https://images.unsplash.com/photo-1507842217343-583bb7270b66?w=1000&q=85', tone: 'from-blue-700/35 via-indigo-950/35' },
-  { title: 'PYQ Explorer', description: 'Previous year questions with filters', href: '/modules/pyq-explorer', icon: FileText, image: 'https://images.unsplash.com/photo-1455390582262-044c cerveza?auto=format&w=1000&q=85', tone: 'from-violet-700/40 via-purple-950/35' },
+  { title: 'PYQ Explorer', description: 'Previous year questions with filters', href: '/modules/pyq-explorer', icon: FileText, image: 'https://images.unsplash.com/photo-1455390582262-044cdead277a?w=1000&q=85', tone: 'from-violet-700/40 via-purple-950/35' },
   { title: 'Study Planner', description: 'Daily & weekly study schedule', href: '/modules/study-planner', icon: CalendarDays, image: 'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=1000&q=85', tone: 'from-rose-700/40 via-fuchsia-950/35' },
 ];
 
