@@ -80,7 +80,11 @@ export default function CivilverseShell({ children }: { children: React.ReactNod
       </main>
     </div>
     <nav className="cv-mobile-nav" aria-label="Mobile navigation">
-      {[{label:'Home',href:'/dashboard',icon:LayoutDashboard},{label:'Drill',href:'/quizzes',icon:Zap},{label:'Library',href:'/resources',icon:Library},{label:'Progress',href:'/history',icon:Activity}].map(item => { const Icon=item.icon; return <Link key={item.label} href={item.href} className={pathname===item.href?'active':''}><Icon size={17}/>{item.label}</Link>; })}
+      <Link href="/dashboard" className={pathname==='/dashboard'?'active':''}><LayoutDashboard size={18}/>Home</Link>
+      <Link href="/quizzes" className={pathname==='/quizzes'?'active':''}><Zap size={18}/>Drill</Link>
+      <Link href="/modules/ai-assistant" aria-label="AI Study Assistant" className="cv-mobile-ai"><Sparkles size={21}/></Link>
+      <Link href="/resources" className={pathname==='/resources'?'active':''}><Library size={18}/>Library</Link>
+      <Link href="/history" className={pathname==='/history'?'active':''}><Activity size={18}/>Progress</Link>
     </nav>
     <div className={`cv-mobile-drawer ${drawer?'open':''}`} onClick={() => setDrawer(false)}>
       <div className="cv-mobile-drawer-panel" onClick={e => e.stopPropagation()}>
