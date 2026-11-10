@@ -6,7 +6,7 @@ import { ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, CalendarDays, Clock3, Fi
 
 const modes = [
  { title:'Upcoming Live Classes', description:"See today's & upcoming schedule", href:'/modules/study-planner', icon:CalendarDays, image:'https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=900&q=85', tone:'from-fuchsia-600/50 via-violet-950/35', tag:'SCHEDULE' },
- { title:'Recorded Lectures', description:'Rewatch, revise and learn at your pace', href:'/courses', icon:Play, image:'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900&q=85', tone:'from-violet-600/50 via-indigo-950/35', tag:'ON DEMAND' },
+ { title:'Recorded Lectures', description:'Rewatch, revise and learn at your pace', href:'/modules/courses', icon:Play, image:'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=900&q=85', tone:'from-violet-600/50 via-indigo-950/35', tag:'ON DEMAND' },
  { title:'Faculty Resources', description:'Notes, PPTs, handouts and more', href:'/resources', icon:FolderOpen, image:'https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=900&q=85', tone:'from-purple-600/50 via-fuchsia-950/35', tag:'STUDY MATERIAL' },
 ];
 const capabilities = [
