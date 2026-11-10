@@ -7,8 +7,7 @@ import { supabase } from '@/lib/supabaseClient';
 import { FALLBACK_QUIZZES } from '@/lib/mockData';
 import { openWatermarkStudio } from '@/lib/pdfExporter';
 import {
-  ArrowLeft, ArrowRight, ArrowUpRight, Award, BookOpen, CheckCircle2,
-  ChevronDown, Clock3, FileText, Filter, Landmark, Layers, Leaf,
+  ArrowLeft, ArrowRight, ChevronDown, Clock3, FileText, Landmark, Layers, Leaf,
   Loader2, Microscope, Newspaper, Play, RotateCcw, Scale, Search,
   Sparkles, TrendingUp, Users, Globe2, Calculator, Lightbulb,
 } from 'lucide-react';
