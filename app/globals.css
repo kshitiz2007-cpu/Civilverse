@@ -108,3 +108,9 @@ button { cursor: pointer; }
 .theme-control:hover { border-color: var(--cv-border-hi); }
 .glass-card { background: var(--cv-panel); border: 1px solid var(--cv-border); box-shadow: var(--cv-shadow); border-radius: 1.25rem; backdrop-filter: blur(18px); }
 .glass-input { background: rgba(255,255,255,.045); border: 1px solid var(--cv-border); border-radius: .85rem; padding: .7rem .95rem; color: var(--cv-text); outline: none; }
+
+
+@media (max-width: 760px) {
+  .cv-mobile-nav a.cv-mobile-ai { width: 48px; height: 48px; margin: -17px 2px 0; justify-content: center; border: 1px solid rgba(255,190,255,.32); border-radius: 999px; color: white; background: linear-gradient(135deg,#7955ff 0%,#c026d3 58%,#ec4899 100%); box-shadow: 0 0 24px rgba(192,38,211,.48), inset 0 1px 0 rgba(255,255,255,.3); }
+  .cv-mobile-nav a.cv-mobile-ai:active { transform: scale(.94); }
+}
