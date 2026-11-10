@@ -5,7 +5,7 @@ import CivilverseShell from '@/components/CivilverseShell';
 import {
   ArrowLeft, ArrowRight, ArrowUpRight, BookOpen, CheckCircle2,
   Clock3, GraduationCap, Layers3, Network, Play, ShieldCheck,
-  Sparkles, Target, Users, Library, FileQuestion,
+  Sparkles, Target, Users,
 } from 'lucide-react';
 
 const tracks = [
