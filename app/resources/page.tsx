@@ -108,6 +108,7 @@ export default function StudentResourcesPage() {
   };
 
   const activeConfig = SUBJECTS.find((subject) => subject.id === activeSubject);
+  const ActiveSubjectIcon = activeConfig?.icon;
 
   if (loading) {
     return <CivilverseShell><div className="flex min-h-[65vh] items-center justify-center"><div className="flex items-center gap-3 rounded-2xl border border-white/10 bg-white/[.04] px-5 py-4 text-sm text-violet-100/70"><Loader2 className="h-5 w-5 animate-spin text-violet-300"/>Opening your knowledge vault…</div></div></CivilverseShell>;
@@ -214,7 +215,7 @@ export default function StudentResourcesPage() {
           <section className="space-y-5">
             <div className="cv-glass flex flex-wrap items-center gap-3 rounded-[22px] p-4 sm:p-5">
               <div className={`grid h-12 w-12 place-items-center rounded-2xl border ${TONE[activeConfig?.tone || 'violet'].icon}`}>
-                {activeConfig && <activeConfig.icon size={23}/>}
+                {ActiveSubjectIcon && <ActiveSubjectIcon size={23}/>}
               </div>
               <div className="min-w-0 flex-1">
                 <div className="cv-eyebrow">{activeConfig?.group || 'SUBJECT COLLECTION'}</div>
